@@ -18,7 +18,7 @@ $mati = $web['0']['meninggal'];
 
 echo "Data Perkembangan Corona Virus ".$negara."\n";
 echo "Negara          : ".$negara."\n";
-echo "Positif         : ".positif."\n";
+echo "Positif         : ".$positif."\n";
 echo "Sembuh          : ".$sembuh."\n";
 echo "Meninggal       : ".$mati."\n";
 
