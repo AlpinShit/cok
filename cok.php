@@ -11,8 +11,8 @@ function http_request($web) {
 $web = http_request("https://api.kawalcorona.com/indonesia");
 $web = json_decode($web, TRUE);
 
-$Negara = $web['0']['name'];
-$Positif = $web['0']['positif'];
+$negara = $web['0']['name'];
+$positif = $web['0']['positif'];
 $sembuh = $web['0']['sembuh'];
 $mati = $web['0']['meninggal'];
 
