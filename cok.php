@@ -1,5 +1,3 @@
-<!-- 5TUP1D-BOY {GARUDA SECURITY HACKER} -->
-
 <?php
 error_reporting(0);
 function http_request($url) {
